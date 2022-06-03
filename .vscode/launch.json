@@ -4,18 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "my_price",
             "request": "launch",
-            "type": "dart",
-            "args":[
-                "--web-port",
-                "$FLUTTER_WEB_PORT",
-                "--web-hostname",
-                "0.0.0.0",
-                "--observatory-port",
-                "$FLUTTER_DEBUG_PORT"
-            ]
+            "type": "dart"
+            // ,
+            // "args":[
+            //     "--web-port",
+            //     "$FLUTTER_WEB_PORT",
+            //     "--web-hostname",
+            //     "0.0.0.0",
+            //     "--observatory-port",
+            //     "$FLUTTER_DEBUG_PORT"
+            // ]
         },
         {
             "name": "my_price (profile mode)",
